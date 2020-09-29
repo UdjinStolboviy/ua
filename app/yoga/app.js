@@ -40,71 +40,126 @@ window.addEventListener('DOMContentLoaded', function () {
     start('.info-header-tab', '.info-header', '.info-tabcontent');
 
 
+    // class Options {
+    //     constructor(height, width, bd, fontSize, textAlign) {
+    //         this.height = height;
+    //         this.width = width;
+    //         this.bd = bd;
+    //         this.fontSize = fontSize;
+    //         this.textAlign = textAlign;
+    //     }
+    //     divAdd() {
+    //         let elem = document.createElement('div');
+    //         document.body.appendChild(elem);
+    //         let pram = `height:${this.height}px; width:${this.width}px; background-color:${this.bd}; font-size:${this.fontSize}px; text-align:${this.textAlign}`;
+    //         elem.style.cssText = pram;
+    //     }
 
-    //Timer
+    // }
 
-    let deadline = '2020-07-17';
+    // const firstDiv = new Options(300, 350, "red", 14, 'center');
+    // firstDiv.divAdd();
 
-    function getTimeRemaining(endtime) {
-        let t = Date.parse(endtime) - Date.parse(new Date()),
-            seconds = Math.floor((t / 1000) % 60),
-            minutes = Math.floor((t / 1000 / 60) % 60),
-            hours = Math.floor((t / (1000 * 60 * 60)));
-        
-        return {
-            'total': t,
-            'hours': hours,
-            'minutes': minutes,
-            'seconds': seconds
-        };
-    }
+    //Slider
 
-    function setClock(id, endtime) {
-        let timer = document.getElementById(id),
-            hours = timer.querySelector('.hours'),
-            minutes = timer.querySelector('.minutes'),
-            seconds = timer.querySelector('.seconds'),
-            timeInterval = setInterval(updateClock, 1000);
-        
-        function updateClock() {
-            let t = getTimeRemaining(endtime);
-            hours.textContent = t.hours;
-            minutes.textContent = t.minutes;
-            seconds.textContent = t.seconds;
+    let slideIndex = 1,
+        slider = document.querySelectorAll('.slider-item'),
+        prev = document.querySelector('.prev'),
+        next = document.querySelector('.next'),
+        dotsWrap = document.querySelector('.slider-dots'),
+        dots = document.querySelectorAll('.dot');
+    
+    
+    showSlides(slideIndex);
 
-            if (t.hours <= 9) {
-                hours.textContent = "0"+t.hours;
-            }
+    function showSlides(n) {
 
-             if (t.minutes <= 9) {
-                 minutes.textContent = "0" + t.minutes;
-             }
-
-            if (t.seconds <= 9) {
-                seconds.textContent = "0" + t.seconds;
-            }
-
-            // function addZero(num) {
-            //     if (num <= 9) {
-            //         return '0' + num;
-            //     } else return num;
-            // };
-
-            // hours.textContent = addZero(t.hours);
-            // minutes.textContent = addZero(t.minutes);
-            // seconds.textContent = addZero(t.seconds);
-
-            if (t.total <= 0) {
-                clearInterval(timeInterval);
-                hours.textContent = '00';
-                minutes.textContent = '00';
-                seconds.textContent = '00';
-            }
+        if (n > slider.length) {
+            slideIndex = 1;
         }
+        if (n < 1) {
+            slideIndex = slider.length;
+        }
+
+        slider.forEach((item) => item.style.display = 'none');
+        // for (let i = 0; i < slider.length; i++){
+        //     slider[i].style.display = 'none';
+        // }
+
+        dots.forEach((item) => item.classList.remove('dot-active'));
+        slider[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].classList.add('dot-active');
     }
 
-    setClock('timer', deadline);
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
 
-  
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    prev.addEventListener('click', function () {
+        plusSlides(-1);
+    });
+
+    next.addEventListener('click', function () {
+        plusSlides(1);
+    });
+
+    dotsWrap.addEventListener('click', function (event) {
+        for (let i = 0; i < dots.length + 1; i++) {
+            if (event.target.classList.contains('dot') && event.target == dots[i - 1]) {
+                currentSlide(i);
+            }
+
+        }
+    });
+
+    //Calc
+
+    let persons = document.querySelectorAll('.counter-block-input')[0],
+        restDays = document.querySelectorAll('.counter-block-input')[1],
+        place = document.getElementById('select'),
+        totalValue = document.getElementById('total'),
+        personsSum = 0,
+        daysSum = 0,
+        total = 0;
+    
+    totalValue.innerHTML = 0;
+
+    persons.addEventListener('change', function () {
+        personsSum = +this.value;
+        total = (daysSum + personsSum) * 4000;
+
+        if (persons.value == '' || restDays.value == '') {
+            totalValue.innerHTML = 0;
+        }else {
+            totalValue.innerHTML = total;
+        }
+
+    });
+
+     restDays.addEventListener('change', function () {
+         daysSum = +this.value;
+         total = (daysSum + personsSum) * 4000;
+
+         if (persons.value == '' || restDays.value == '') {
+             totalValue.innerHTML = 0;
+         } else {
+             totalValue.innerHTML = total;
+         }
+
+     });
+
+    place.addEventListener('change', function () {
+        if (restDays.value == '' || persons.value == '') {
+            totalValue.innerHTML = 0;
+        } else {
+            let a = total;
+            totalValue.innerHTML = a * this.options[this.selectedIndex].value;
+        }
+    });
+    
 });
 
