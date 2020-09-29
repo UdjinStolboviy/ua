@@ -61,3 +61,17 @@
         font-size: 18px;
     }
 }
+
+.conteiner {
+    margin: 30px 10px;
+    border: 1px solid #c3c3c3;
+    border-radius: 30px;
+
+}
+
+.works {
+    width: 150px;
+    height: 150px;
+}
+
+/* .img {} */
