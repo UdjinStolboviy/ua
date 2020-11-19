@@ -718,8 +718,11 @@ header ul li:before {
   box-shadow: 0 0 10px #c78030;
 }
 
-@media (min-width: 768px)
-.content .contact-img img {
-  height: 350px;
+@media (max-width: 1200px) {
+.contact .contact-img img {
+  padding-top: 60px;
   width: 350px;
+  height: 350px;
+}
+
 }
