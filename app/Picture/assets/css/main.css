@@ -1488,8 +1488,15 @@ h4 {
     margin: 4rem auto;
     width: auto;
   }
+  
 }
 @media (max-width: 767px) {
+  .feedback-slider {
+    display: none;
+  }
+  .main-slider {
+    display: none;
+  }
   .main-features {
     max-width: 30rem;
     margin-left: auto;
@@ -1729,7 +1736,5 @@ h4 {
     width: 25rem;
   }
 
-  .feedback-slider {
-    margin-bottom: 117px;
-  }
+  
 }
