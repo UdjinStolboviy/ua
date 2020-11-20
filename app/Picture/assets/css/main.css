@@ -1728,4 +1728,8 @@ h4 {
     padding: 3rem 3rem;
     width: 25rem;
   }
+
+  .feedback-slider {
+    margin-bottom: 117px;
+  }
 }
