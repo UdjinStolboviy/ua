@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ua/app/MetalL/static/css/main.6b05174e.chunk.css",
+    "main.css": "/ua/app/MetalL/static/css/main.fb5ac885.chunk.css",
     "main.js": "/ua/app/MetalL/static/js/main.93063110.chunk.js",
     "main.js.map": "/ua/app/MetalL/static/js/main.93063110.chunk.js.map",
     "runtime-main.js": "/ua/app/MetalL/static/js/runtime-main.c18abeca.js",
@@ -10,7 +10,7 @@
     "static/js/2.9d729d22.chunk.js.map": "/ua/app/MetalL/static/js/2.9d729d22.chunk.js.map",
     "index.html": "/ua/app/MetalL/index.html",
     "static/css/2.150d169a.chunk.css.map": "/ua/app/MetalL/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.6b05174e.chunk.css.map": "/ua/app/MetalL/static/css/main.6b05174e.chunk.css.map",
+    "static/css/main.fb5ac885.chunk.css.map": "/ua/app/MetalL/static/css/main.fb5ac885.chunk.css.map",
     "static/js/2.9d729d22.chunk.js.LICENSE.txt": "/ua/app/MetalL/static/js/2.9d729d22.chunk.js.LICENSE.txt",
     "static/media/Group 120.32076cfc.svg": "/ua/app/MetalL/static/media/Group 120.32076cfc.svg",
     "static/media/Group121.53f4d119.svg": "/ua/app/MetalL/static/media/Group121.53f4d119.svg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.c18abeca.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.9d729d22.chunk.js",
-    "static/css/main.6b05174e.chunk.css",
+    "static/css/main.fb5ac885.chunk.css",
     "static/js/main.93063110.chunk.js"
   ]
 }
