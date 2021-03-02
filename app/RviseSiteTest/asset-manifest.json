@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/ua/app/RviseSiteTest/static/css/main.a929ad74.chunk.css",
-    "main.js": "/ua/app/RviseSiteTest/static/js/main.e29ce92d.chunk.js",
-    "main.js.map": "/ua/app/RviseSiteTest/static/js/main.e29ce92d.chunk.js.map",
+    "main.css": "/ua/app/RviseSiteTest/static/css/main.ca2c662e.chunk.css",
+    "main.js": "/ua/app/RviseSiteTest/static/js/main.590cde3d.chunk.js",
+    "main.js.map": "/ua/app/RviseSiteTest/static/js/main.590cde3d.chunk.js.map",
     "runtime-main.js": "/ua/app/RviseSiteTest/static/js/runtime-main.fe85d901.js",
     "runtime-main.js.map": "/ua/app/RviseSiteTest/static/js/runtime-main.fe85d901.js.map",
-    "static/js/2.e8aeca27.chunk.js": "/ua/app/RviseSiteTest/static/js/2.e8aeca27.chunk.js",
-    "static/js/2.e8aeca27.chunk.js.map": "/ua/app/RviseSiteTest/static/js/2.e8aeca27.chunk.js.map",
+    "static/js/2.37b4cc8a.chunk.js": "/ua/app/RviseSiteTest/static/js/2.37b4cc8a.chunk.js",
+    "static/js/2.37b4cc8a.chunk.js.map": "/ua/app/RviseSiteTest/static/js/2.37b4cc8a.chunk.js.map",
     "index.html": "/ua/app/RviseSiteTest/index.html",
-    "static/css/main.a929ad74.chunk.css.map": "/ua/app/RviseSiteTest/static/css/main.a929ad74.chunk.css.map",
-    "static/js/2.e8aeca27.chunk.js.LICENSE.txt": "/ua/app/RviseSiteTest/static/js/2.e8aeca27.chunk.js.LICENSE.txt",
+    "static/css/main.ca2c662e.chunk.css.map": "/ua/app/RviseSiteTest/static/css/main.ca2c662e.chunk.css.map",
+    "static/js/2.37b4cc8a.chunk.js.LICENSE.txt": "/ua/app/RviseSiteTest/static/js/2.37b4cc8a.chunk.js.LICENSE.txt",
     "static/media/IconCar.4958bbb3.svg": "/ua/app/RviseSiteTest/static/media/IconCar.4958bbb3.svg",
     "static/media/Steps.de1238d2.png": "/ua/app/RviseSiteTest/static/media/Steps.de1238d2.png",
     "static/media/advantages-image.b246c336.png": "/ua/app/RviseSiteTest/static/media/advantages-image.b246c336.png",
     "static/media/bg-typecol.61b60a63.png": "/ua/app/RviseSiteTest/static/media/bg-typecol.61b60a63.png",
+    "static/media/footer-content.eedb31e3.png": "/ua/app/RviseSiteTest/static/media/footer-content.eedb31e3.png",
     "static/media/man-image.71e9b85c.png": "/ua/app/RviseSiteTest/static/media/man-image.71e9b85c.png",
     "static/media/promo-image.78651bea.png": "/ua/app/RviseSiteTest/static/media/promo-image.78651bea.png",
     "static/media/requirements-image.9623b484.png": "/ua/app/RviseSiteTest/static/media/requirements-image.9623b484.png",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fe85d901.js",
-    "static/js/2.e8aeca27.chunk.js",
-    "static/css/main.a929ad74.chunk.css",
-    "static/js/main.e29ce92d.chunk.js"
+    "static/js/2.37b4cc8a.chunk.js",
+    "static/css/main.ca2c662e.chunk.css",
+    "static/js/main.590cde3d.chunk.js"
   ]
 }
