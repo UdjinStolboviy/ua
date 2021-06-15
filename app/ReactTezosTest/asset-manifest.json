@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ua/app/ReactTezosTest/static/css/main.2ae04293.chunk.css",
-    "main.js": "/ua/app/ReactTezosTest/static/js/main.205cc0a6.chunk.js",
-    "main.js.map": "/ua/app/ReactTezosTest/static/js/main.205cc0a6.chunk.js.map",
+    "main.js": "/ua/app/ReactTezosTest/static/js/main.7784935b.chunk.js",
+    "main.js.map": "/ua/app/ReactTezosTest/static/js/main.7784935b.chunk.js.map",
     "runtime-main.js": "/ua/app/ReactTezosTest/static/js/runtime-main.7e6ac6a2.js",
     "runtime-main.js.map": "/ua/app/ReactTezosTest/static/js/runtime-main.7e6ac6a2.js.map",
     "static/js/2.49000e63.chunk.js": "/ua/app/ReactTezosTest/static/js/2.49000e63.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.7e6ac6a2.js",
     "static/js/2.49000e63.chunk.js",
     "static/css/main.2ae04293.chunk.css",
-    "static/js/main.205cc0a6.chunk.js"
+    "static/js/main.7784935b.chunk.js"
   ]
 }
