@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ua/static/css/main.68093eb7.chunk.css",
-    "main.js": "/ua/static/js/main.8a8e1f27.chunk.js",
-    "main.js.map": "/ua/static/js/main.8a8e1f27.chunk.js.map",
+    "main.js": "/ua/static/js/main.c1d53a03.chunk.js",
+    "main.js.map": "/ua/static/js/main.c1d53a03.chunk.js.map",
     "runtime-main.js": "/ua/static/js/runtime-main.59bf8043.js",
     "runtime-main.js.map": "/ua/static/js/runtime-main.59bf8043.js.map",
     "static/js/2.0369f853.chunk.js": "/ua/static/js/2.0369f853.chunk.js",
@@ -18,6 +18,13 @@
     "static/media/6word.0a9e4515.png": "/ua/static/media/6word.0a9e4515.png",
     "static/media/7yoga.a9404375.png": "/ua/static/media/7yoga.a9404375.png",
     "static/media/AddIMGTest.5635545c.png": "/ua/static/media/AddIMGTest.5635545c.png",
+    "static/media/Curent.f1d6b236.png": "/ua/static/media/Curent.f1d6b236.png",
+    "static/media/Kinomons.7b6275a8.png": "/ua/static/media/Kinomons.7b6275a8.png",
+    "static/media/Loginang.d84f2e49.png": "/ua/static/media/Loginang.d84f2e49.png",
+    "static/media/Metal.9d5f60da.png": "/ua/static/media/Metal.9d5f60da.png",
+    "static/media/Pictur.92d42e3b.png": "/ua/static/media/Pictur.92d42e3b.png",
+    "static/media/Planet.fb34308a.png": "/ua/static/media/Planet.fb34308a.png",
+    "static/media/PreionTest.9b4d942f.png": "/ua/static/media/PreionTest.9b4d942f.png",
     "static/media/ReactBitmediaTest.486e1ca9.png": "/ua/static/media/ReactBitmediaTest.486e1ca9.png",
     "static/media/ReactTezosTest.5cb57949.png": "/ua/static/media/ReactTezosTest.5cb57949.png",
     "static/media/Typescriptg.01020bf7.png": "/ua/static/media/Typescriptg.01020bf7.png",
@@ -25,6 +32,7 @@
     "static/media/jsjs.6c632810.png": "/ua/static/media/jsjs.6c632810.png",
     "static/media/logo-2582748_960_720.12fb7c90.png": "/ua/static/media/logo-2582748_960_720.12fb7c90.png",
     "static/media/logo.7ffbe716.png": "/ua/static/media/logo.7ffbe716.png",
+    "static/media/puls.7cf63ff9.png": "/ua/static/media/puls.7cf63ff9.png",
     "static/media/react-fetch-gotapp-ts.b636f58b.png": "/ua/static/media/react-fetch-gotapp-ts.b636f58b.png",
     "static/media/react-prodject.5c4c1d9e.png": "/ua/static/media/react-prodject.5c4c1d9e.png",
     "static/media/rviseSiteTest.bf9f60ff.png": "/ua/static/media/rviseSiteTest.bf9f60ff.png",
@@ -36,6 +44,6 @@
     "static/js/runtime-main.59bf8043.js",
     "static/js/2.0369f853.chunk.js",
     "static/css/main.68093eb7.chunk.css",
-    "static/js/main.8a8e1f27.chunk.js"
+    "static/js/main.c1d53a03.chunk.js"
   ]
 }
