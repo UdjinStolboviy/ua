@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ua/app/TropicalFish/static/css/main.a75f7664.chunk.css",
+    "main.js": "/ua/app/TropicalFish/static/js/main.89949922.chunk.js",
+    "main.js.map": "/ua/app/TropicalFish/static/js/main.89949922.chunk.js.map",
+    "runtime-main.js": "/ua/app/TropicalFish/static/js/runtime-main.bb8e5a55.js",
+    "runtime-main.js.map": "/ua/app/TropicalFish/static/js/runtime-main.bb8e5a55.js.map",
+    "static/js/2.ae4e4b2f.chunk.js": "/ua/app/TropicalFish/static/js/2.ae4e4b2f.chunk.js",
+    "static/js/2.ae4e4b2f.chunk.js.map": "/ua/app/TropicalFish/static/js/2.ae4e4b2f.chunk.js.map",
+    "static/js/3.dc128b50.chunk.js": "/ua/app/TropicalFish/static/js/3.dc128b50.chunk.js",
+    "static/js/3.dc128b50.chunk.js.map": "/ua/app/TropicalFish/static/js/3.dc128b50.chunk.js.map",
+    "index.html": "/ua/app/TropicalFish/index.html",
+    "static/css/main.a75f7664.chunk.css.map": "/ua/app/TropicalFish/static/css/main.a75f7664.chunk.css.map",
+    "static/js/2.ae4e4b2f.chunk.js.LICENSE.txt": "/ua/app/TropicalFish/static/js/2.ae4e4b2f.chunk.js.LICENSE.txt",
+    "static/media/Kyivstar-blue.712f5365.png": "/ua/app/TropicalFish/static/media/Kyivstar-blue.712f5365.png",
+    "static/media/Untitled12.80af12c8.png": "/ua/app/TropicalFish/static/media/Untitled12.80af12c8.png",
+    "static/media/mechenosec.f497f025.jpg": "/ua/app/TropicalFish/static/media/mechenosec.f497f025.jpg",
+    "static/media/png-transparent-vodafone-ukraine-lifecell.1d18d041.png": "/ua/app/TropicalFish/static/media/png-transparent-vodafone-ukraine-lifecell.1d18d041.png",
+    "static/media/sticker-png-mts-logo-mobile-operator.864a436e.png": "/ua/app/TropicalFish/static/media/sticker-png-mts-logo-mobile-operator.864a436e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb8e5a55.js",
+    "static/js/2.ae4e4b2f.chunk.js",
+    "static/css/main.a75f7664.chunk.css",
+    "static/js/main.89949922.chunk.js"
+  ]
+}
