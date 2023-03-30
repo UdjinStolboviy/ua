@@ -8,8 +8,8 @@
   "/education": "pages/education.html",
   "/education/styled-education": "pages/education/styled-education.html",
   "/": "pages/index.html",
-  "/my-work": "pages/my-work.html",
   "/_error": "pages/_error.js",
+  "/my-work": "pages/my-work.html",
   "/my-work/styled-my-work": "pages/my-work/styled-my-work.html",
   "/my-works-web": "pages/my-works-web.html",
   "/my-works-web/styled-my-works-web": "pages/my-works-web/styled-my-works-web.html"
