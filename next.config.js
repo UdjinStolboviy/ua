@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    unoptimized: false,
+  },
   future: { webpack5: true },
-  output: 'export',
+  output: "export",
 };
 
 module.exports = nextConfig;
