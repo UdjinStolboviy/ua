@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/ua/app/MetalL/static/css/main.fb5ac885.chunk.css",
+    "main.js": "/ua/app/MetalL/static/js/main.93063110.chunk.js",
+    "main.js.map": "/ua/app/MetalL/static/js/main.93063110.chunk.js.map",
+    "runtime-main.js": "/ua/app/MetalL/static/js/runtime-main.c18abeca.js",
+    "runtime-main.js.map": "/ua/app/MetalL/static/js/runtime-main.c18abeca.js.map",
+    "static/css/2.150d169a.chunk.css": "/ua/app/MetalL/static/css/2.150d169a.chunk.css",
+    "static/js/2.9d729d22.chunk.js": "/ua/app/MetalL/static/js/2.9d729d22.chunk.js",
+    "static/js/2.9d729d22.chunk.js.map": "/ua/app/MetalL/static/js/2.9d729d22.chunk.js.map",
+    "index.html": "/ua/app/MetalL/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/ua/app/MetalL/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.fb5ac885.chunk.css.map": "/ua/app/MetalL/static/css/main.fb5ac885.chunk.css.map",
+    "static/js/2.9d729d22.chunk.js.LICENSE.txt": "/ua/app/MetalL/static/js/2.9d729d22.chunk.js.LICENSE.txt",
+    "static/media/Group 120.32076cfc.svg": "/ua/app/MetalL/static/media/Group 120.32076cfc.svg",
+    "static/media/Group121.53f4d119.svg": "/ua/app/MetalL/static/media/Group121.53f4d119.svg",
+    "static/media/Rectangle 17.6f47eb72.png": "/ua/app/MetalL/static/media/Rectangle 17.6f47eb72.png",
+    "static/media/Rectangle 18.a55341f2.png": "/ua/app/MetalL/static/media/Rectangle 18.a55341f2.png",
+    "static/media/Rectangle 19.f5ca17ac.png": "/ua/app/MetalL/static/media/Rectangle 19.f5ca17ac.png",
+    "static/media/Rectangle 20.137f778d.png": "/ua/app/MetalL/static/media/Rectangle 20.137f778d.png",
+    "static/media/Rectangle 21.40b7fe14.png": "/ua/app/MetalL/static/media/Rectangle 21.40b7fe14.png",
+    "static/media/Rectangle 22.dfd32487.png": "/ua/app/MetalL/static/media/Rectangle 22.dfd32487.png",
+    "static/media/Rectangle 23.dac82927.png": "/ua/app/MetalL/static/media/Rectangle 23.dac82927.png",
+    "static/media/Rectangle 24.928d4633.png": "/ua/app/MetalL/static/media/Rectangle 24.928d4633.png",
+    "static/media/Rectangle 25.00bb3a02.png": "/ua/app/MetalL/static/media/Rectangle 25.00bb3a02.png",
+    "static/media/Rectangle 252.d5ba6fba.png": "/ua/app/MetalL/static/media/Rectangle 252.d5ba6fba.png",
+    "static/media/Rectangle.7830ed30.png": "/ua/app/MetalL/static/media/Rectangle.7830ed30.png",
+    "static/media/Vector.9d4e8486.svg": "/ua/app/MetalL/static/media/Vector.9d4e8486.svg",
+    "static/media/facebook.f3ef089b.svg": "/ua/app/MetalL/static/media/facebook.f3ef089b.svg",
+    "static/media/google.457ecf45.svg": "/ua/app/MetalL/static/media/google.457ecf45.svg",
+    "static/media/instagram.6d03fc03.svg": "/ua/app/MetalL/static/media/instagram.6d03fc03.svg",
+    "static/media/youtube.781cd738.svg": "/ua/app/MetalL/static/media/youtube.781cd738.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c18abeca.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.9d729d22.chunk.js",
+    "static/css/main.fb5ac885.chunk.css",
+    "static/js/main.93063110.chunk.js"
+  ]
+}

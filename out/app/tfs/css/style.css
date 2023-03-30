@@ -1,0 +1,28 @@
+
+.product {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 30px;
+    min-height: 150px;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #06276f;
+    border-radius: 30px;
+}
+
+.mani {
+    width: 40px;
+    border: 2px solid #06276f;
+    border-radius: 10px;
+}
+
+
+
+.product-img img {
+    display: block;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.product-title {}
