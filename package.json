@@ -2,7 +2,7 @@
   "name": "MY_CV",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://udjinstolboviy.github.io/ua",
+  "homepage": "https://udjinstolboviy.github.io/ua/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
